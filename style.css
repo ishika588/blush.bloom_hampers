@@ -1,37 +1,74 @@
-style.css
+/* BODY BACKGROUND - soft pastel pink */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0; /* soft pink for full page */
+    font-family: 'Poppins', sans-serif;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bless Bloom Hampers</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* MAIN CONTAINER - slightly darker pink */
+.main-container {
+    width: 85%;
+    max-width: 700px;
+    background-color: #ffd1e6; /* girly container pink */
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(255, 133, 162, 0.3);
+}
 
-    <div class="main-container">
-        <h1>🌸 Bless Bloom Hampers 🌸</h1>
-        <p class="subtitle">Cute • Girly • Made with Love 💖</p>
+/* HEADINGS */
+h1 {
+    color: #d63384;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
 
-        <div class="info-box">
-            <h2>What We Offer 🎀</h2>
-            <p>
-                Beautiful girly gift hampers including scrunchies, clutches,
-                lip gloss, claw clips & other cute surprises ✨
-            </p>
-        </div>
+.subtitle {
+    color: #b03060;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
-        <div class="info-box">
-            <h2>Perfect For 💝</h2>
-            <p>
-                Birthdays • Besties • Bridesmaids • Self Love • Cute Surprises
-            </p>
-        </div>
+/* INFO BOXES - lighter pink */
+.info-box {
+    background-color: #fff0f6; /* very light pink */
+    padding: 20px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(255, 133, 162, 0.2);
+}
 
-        <!-- Buttons -->
-        <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="order-btn">Order on WhatsApp 💌</a>
-        <a href="https://www.instagram.com/yourusername/" target="_blank" class="order-btn insta-btn">Follow on Instagram 📸</a>
-    </div>
+.info-box h2 {
+    color: #c2185b;
+    margin-bottom: 10px;
+}
 
-</body>
-</html>
+.info-box p {
+    color: #6d214f;
+    font-size: 15px;
+}
+
+/* BUTTONS */
+.order-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff85a2;
+    color: white;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: 0.3s;
+}
+
+/* Instagram button different shade */
+.insta-btn {
+    background-color: #c13584;
+}
+
+.insta-btn:hover {
+    background-color: #e1306c;
+}
